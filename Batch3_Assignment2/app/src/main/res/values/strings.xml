@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Batch3_Assignment #2</string>
+    <string name="hitung">Hitung</string>
+    <string name="tahun_lahir">Tahun Lahir</string>
+    <string name="listview">Listview</string>
+    <string name="hitung_umur">Hitung umur</string>
+    <string name="cek">Cek</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+    <string name="kalkulator_bmi">Kalkulator BMI</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="mufrodats">Mufrodats</string>
+    <string name="makna">Makna</string>
+    <string name="mitsl">Mitsl</string>
+    <string name="nama">Nama</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="close">Close</string>
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>

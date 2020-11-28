@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/bs"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/foto"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textMufrodats"
+            android:text="@string/mufrodats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textMakna"
+            android:layout_marginTop="10dp"
+            android:text="@string/makna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textMitsl"
+            android:layout_marginTop="10dp"
+            android:text="@string/mitsl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnClose"
+            android:text="@string/close"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_rcylerview"
+            android:text="Recycler View Adapter"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalkulatorBBI"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textUsernameKal"
+        android:textSize="18sp"
+        android:text="@string/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textPasswordKal"
+        android:textSize="18sp"
+        android:text="Password"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/kalkulator_bmi"
+            android:textSize="24dp"/>
+
+        <EditText
+            android:id="@+id/edtTB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tinggi_badan" />
+        <EditText
+            android:id="@+id/edtBB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Berat Bada"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_jenisKelamin"
+            android:entries="@array/jenis_kelamin"
+            android:padding="15dp">
+        </Spinner>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cek" />
+
+            <Button
+                android:id="@+id/btnHitungUmur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hitung_umur" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
